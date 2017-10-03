@@ -1,4 +1,7 @@
 Changelog for Log-Any-Adapter-LinuxJournal
 
-0.172580 2017-09-15T05:28:01Z
- - First version (Ioan Rogers)
+0.172760 2017-10-03T03:01:23Z
+ - Non-TRIAL Log::Any with structured logging has been released, require it
+
+0.172580 2017-09-15T05:28:20Z
+ - First version

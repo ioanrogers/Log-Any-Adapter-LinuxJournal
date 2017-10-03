@@ -4,7 +4,7 @@ Log::Any::Adapter::LinuxJournal - Log::Any adapter for the systemd journal on Li
 
 # VERSION
 
-version 0.172580
+version 0.172760
 
 # SYNOPSIS
 
@@ -17,11 +17,10 @@ Log::Any::Adapter->set('LinuxJournal',
 
 # DESCRIPTION
 
-**WARNING** This is a `Log::Any` adpater for _structured_ logging, which means it
-is only useful with a **TRIAL** version of `Log::Any`, currently
-[1.0051](https://metacpan.org/release/PREACTION/Log-Any-1.051-TRIAL)
+**WARNING** This is a [Log::Any](https://metacpan.org/pod/Log::Any) adpater for _structured_ logging, which means it
+is only useful with a very recent version of [Log::Any](https://metacpan.org/pod/Log::Any), at least `1.700`/
 
-It will log messages to the systemd journal via [Linux::Systemd::Journal](https://metacpan.org/pod/Linux::Systemd::Journal).
+It will log messages to the systemd journal via [Linux::Systemd::Journal::Write](https://metacpan.org/pod/Linux::Systemd::Journal::Write).
 
 # SEE ALSO
 
