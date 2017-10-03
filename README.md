@@ -4,7 +4,7 @@ Log::Any::Adapter::LinuxJournal - Log::Any adapter for the systemd journal on Li
 
 # VERSION
 
-version 0.172760
+version 0.172761
 
 # SYNOPSIS
 
@@ -18,7 +18,7 @@ Log::Any::Adapter->set('LinuxJournal',
 # DESCRIPTION
 
 **WARNING** This is a [Log::Any](https://metacpan.org/pod/Log::Any) adpater for _structured_ logging, which means it
-is only useful with a very recent version of [Log::Any](https://metacpan.org/pod/Log::Any), at least `1.700`/
+is only useful with a very recent version of [Log::Any](https://metacpan.org/pod/Log::Any), at least `1.700`
 
 It will log messages to the systemd journal via [Linux::Systemd::Journal::Write](https://metacpan.org/pod/Linux::Systemd::Journal::Write).
 
@@ -48,7 +48,7 @@ Ioan Rogers <ioanr@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2017 by Sophos Ltd.
+This software is copyright (c) 2017 by Ioan Rogers.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
