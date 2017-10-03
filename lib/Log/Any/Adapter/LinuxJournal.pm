@@ -6,7 +6,7 @@ use v5.12;
 use warnings;
 
 use Linux::Systemd::Journal::Write;
-use Log::Any::Adapter::Util '1.051';
+use Log::Any::Adapter::Util '1.700';
 use base 'Log::Any::Adapter::Base';
 
 sub init {
@@ -62,9 +62,8 @@ for my $method (Log::Any::Adapter::Util::detection_methods()) {
 
 =head1 DESCRIPTION
 
-B<WARNING> This is a C<Log::Any> adpater for I<structured> logging, which means it
-is only useful with a B<TRIAL> version of C<Log::Any>, currently
-L<1.0051|https://metacpan.org/release/PREACTION/Log-Any-1.051-TRIAL>
+B<WARNING> This is a L<Log::Any> adpater for I<structured> logging, which means it
+is only useful with a very recent version of L<Log::Any>, at least C<1.700>/
 
 It will log messages to the systemd journal via L<Linux::Systemd::Journal>.
 
