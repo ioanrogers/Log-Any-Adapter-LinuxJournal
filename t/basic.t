@@ -17,4 +17,10 @@ ok $log->info('logging user in',
 ok $log->error('database error',
     {user => 'alice', action => 'account_update', ip => '12.34.56.78'});
 
+subtest 'in a sub' => sub {
+    ok $log->info('logging user in from a subroutine',
+       {user => 'jane', action => 'login', ip => '56.54.52.51'});
+
+};
+
 done_testing;

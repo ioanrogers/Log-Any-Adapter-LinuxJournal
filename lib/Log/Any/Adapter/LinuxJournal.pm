@@ -5,13 +5,13 @@ package Log::Any::Adapter::LinuxJournal;
 use v5.12;
 use warnings;
 
-use Linux::Systemd::Journal::Write;
+use Linux::Systemd::Journal::Write 1.172760;
 use Log::Any::Adapter::Util '1.700';
 use base 'Log::Any::Adapter::Base';
 
 sub init {
     my $self = shift;
-    $self->{jnl} = Linux::Systemd::Journal::Write->new(@_);
+    $self->{jnl} = Linux::Systemd::Journal::Write->new(@_, caller_level => 2);
     return;
 }
 
