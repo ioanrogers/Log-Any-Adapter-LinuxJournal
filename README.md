@@ -4,7 +4,7 @@ Log::Any::Adapter::LinuxJournal - Log::Any adapter for the systemd journal on Li
 
 # VERSION
 
-version 0.172761
+version 0.172762
 
 # SYNOPSIS
 

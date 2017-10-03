@@ -1,5 +1,8 @@
 Changelog for Log-Any-Adapter-LinuxJournal
 
+0.172762 2017-10-03T04:04:35Z
+ - Require Linux::Systemd with `caller()` control
+
 0.172761 2017-10-03T03:07:15Z
  - Fix copyright after using wrong dist.ini
 
