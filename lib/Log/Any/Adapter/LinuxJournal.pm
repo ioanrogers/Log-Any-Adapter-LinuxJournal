@@ -65,7 +65,7 @@ for my $method (Log::Any::Adapter::Util::detection_methods()) {
 B<WARNING> This is a L<Log::Any> adpater for I<structured> logging, which means it
 is only useful with a very recent version of L<Log::Any>, at least C<1.700>/
 
-It will log messages to the systemd journal via L<Linux::Systemd::Journal>.
+It will log messages to the systemd journal via L<Linux::Systemd::Journal::Write>.
 
 =head1 SEE ALSO
 
