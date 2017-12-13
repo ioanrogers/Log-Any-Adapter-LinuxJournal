@@ -1,7 +1,7 @@
 Changelog for Log-Any-Adapter-LinuxJournal
 
-0.173471 2017-12-13T22:04:10Z
- - Fix incorrect copyright
+0.173471 2017-12-13T22:05:52Z
+ - Fix copyright (Ioan Rogers)
 
 0.173470 2017-12-13T21:50:06Z
  - [closes rt#123181] fix Log::Any::Adapter version requirement. Thanks to
