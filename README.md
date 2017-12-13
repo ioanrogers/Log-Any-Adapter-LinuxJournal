@@ -4,7 +4,7 @@ Log::Any::Adapter::LinuxJournal - Log::Any adapter for the systemd journal on Li
 
 # VERSION
 
-version 0.173470
+version 0.173471
 
 # SYNOPSIS
 
@@ -68,7 +68,7 @@ Ioan Rogers <ioanr@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2017 by Sophos Ltd.
+This software is copyright (c) 2017 by Ioan Rogers.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
